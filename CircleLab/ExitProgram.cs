@@ -10,8 +10,10 @@ namespace CircleLab
     {
         public static void WaitForAnyKeyToExit()
         {
-            Console.WriteLine("\nPress any key to exit..."); 
-            Console.ReadKey(); 
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey(true);
+
+
         }
     }
 }

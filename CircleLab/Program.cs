@@ -3,9 +3,8 @@ using System;
 
 Console.WriteLine("Welcome to the Circle Tester");
 
-double radius; //variable to store radius
-Circle circle; // Variable to store our Circle object
-
+double radius;
+Circle circle;
 
 while (true)
 {
@@ -63,5 +62,4 @@ do
 Console.WriteLine($"Goodbye. The circle’s final radius is {circle.GetRadius()}.");
 
 ExitProgram.WaitForAnyKeyToExit();
-
 
